@@ -1,5 +1,11 @@
 Vue.component('carrusel', {
   template: `
+  <div class="container-fluid">
+  <h4>
+    <a style="border-bottom: solid 2px #faa22c;">
+      Alimentos
+    </a>
+  </h4>
   <div class="slick-list" id="slick-list">
             <button @click="leftMove()" class="slick-arrow slick-prev" id="button-prev">
                 <i class="fas fa-chevron-left"></i>
@@ -154,6 +160,7 @@ Vue.component('carrusel', {
                 <i class="fas fa-chevron-right"></i>
             </button>
         </div>
+        <div>
   `,
   data(){
     return {

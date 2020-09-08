@@ -36,11 +36,11 @@ a{
     display: flex;
     align-items: center;
     width: fit-content;
-    height: 304px;
+    height: 257px;
     padding: 10px 0px;
     margin: 0px auto;
     width: 100%;
-    max-width: 76vw;
+    max-width: 90vw;
     overflow: hidden;
 }
 .slick-track{
