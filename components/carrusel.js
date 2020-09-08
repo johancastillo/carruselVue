@@ -8,9 +8,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/1.jpg" alt="Image">
+                                <img src="./img/1.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -18,9 +17,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/2.jpg" alt="Image">
+                                <img src="./img/2.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -28,9 +26,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/3.jpg" alt="Image">
+                                <img src="./img/3.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -38,9 +35,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/4.jpg" alt="Image">
+                                <img src="./img/4.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -48,9 +44,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/5.jpg" alt="Image">
+                                <img src="./img/5.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -58,9 +53,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/6.jpg" alt="Image">
+                                <img src="./img/6.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -68,9 +62,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/7.jpg" alt="Image">
+                                <img src="./img/7.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -78,9 +71,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/8.jpg" alt="Image">
+                                <img src="./img/8.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -88,9 +80,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/9.jpg" alt="Image">
+                                <img src="./img/9.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -98,9 +89,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/10.jpg" alt="Image">
+                                <img src="./img/10.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -108,9 +98,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/11.jpg" alt="Image">
+                                <img src="./img/11.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -118,9 +107,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/12.jpg" alt="Image">
+                                <img src="./img/12.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -128,9 +116,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/13.jpg" alt="Image">
+                                <img src="./img/13.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -138,9 +125,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/14.jpg" alt="Image">
+                                <img src="./img/14.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
@@ -148,9 +134,8 @@ Vue.component('carrusel', {
                 <div class="slick">
                     <div>
                         <a href="/">
-                            <h4><small>Share Your Message</small>Watch</h4>
                             <picture>
-                                <img src="./images/15.jpg" alt="Image">
+                                <img src="./img/15.jpg" alt="Image">
                             </picture>
                         </a>
                     </div>
