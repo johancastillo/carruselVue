@@ -4,20 +4,26 @@
     <meta charset="utf-8">
     <title>Carrusel con Vue</title>
 
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootswatch-theme-lux.min.css">
   </head>
   <body>
 
-    <div id="app">
+    <div id="app" class="container-fluid">
 
-        <h1>{{ saludo }}</h1>
+        <h1 class="mt-4 mb-4">{{ saludo }}</h1>
         <carrusel></carrusel>
 
     </div>
 
 
     <!-- Scripts -->
+    <script src="js/fontawesome.js" charset="utf-8"></script>
     <script src="js/vue.js" charset="utf-8"></script>
     <script src="components/carrusel.js" charset="utf-8"></script>
     <script src="js/app.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+
   </body>
 </html>
