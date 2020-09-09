@@ -14,7 +14,7 @@ Vue.component('carrusel', {
   </p>
   </div>
 
-  <div class="slick-list" id="slick-list">
+  <div class="slick-list">
             <button @click="leftMove()" class="slick-arrow slick-prev" id="button-prev">
                 <i class="fas fa-chevron-left"></i>
             </button>
@@ -179,13 +179,13 @@ Vue.component('carrusel', {
   methods: {
     leftMove(){
       const track = app.$el.querySelector("#track");
-      const slickList = app.$el.querySelector("#slick-list")
-      const slick = app.$el.querySelector("#slick-list").querySelectorAll(".slick")
+      const slickList = app.$el.querySelectorAll(".slick-list")[1];
+      const slick = app.$el.querySelector(".slick-list").querySelectorAll(".slick")
       const slickWidth = slick[0].offsetWidth;
 
       function Move(value) {
-        const trackWidth =  app.$el.querySelector("#track").offsetWidth;
-        const listWidth = app.$el.querySelector("#slick-list").offsetWidth;
+        const trackWidth =  track.offsetWidth;
+        const listWidth = slickList.offsetWidth;
 
 
           track.style.left == "" ? leftPosition = track.style.left = 0 : leftPosition = parseFloat(track.style.left.slice(0, -2) * -1);
@@ -202,13 +202,13 @@ Vue.component('carrusel', {
     },
     rightMove(){
       const track = app.$el.querySelector("#track");
-      const slickList = app.$el.querySelector("#slick-list")
-      const slick = app.$el.querySelector("#slick-list").querySelectorAll(".slick")
+      const slickList = app.$el.querySelectorAll(".slick-list")[1];
+      const slick = app.$el.querySelector(".slick-list").querySelectorAll(".slick")
       const slickWidth = slick[0].offsetWidth;
 
       function Move(value) {
-          const trackWidth =  app.$el.querySelector("#track").offsetWidth;
-          const listWidth = app.$el.querySelector("#slick-list").offsetWidth;
+          const trackWidth =  track.offsetWidth;
+          const listWidth = slickList.offsetWidth;
 
           track.style.left == "" ? leftPosition = track.style.left = 0 : leftPosition = parseFloat(track.style.left.slice(0, -2) * -1);
 
