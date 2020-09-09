@@ -178,14 +178,15 @@ Vue.component('carrusel', {
   },
   methods: {
     leftMove(){
-      const track = document.getElementById('track');
-      const slickList = document.getElementById('slick-list');
-      const slick = document.querySelectorAll('.slick');
-
+      const track = app.$el.querySelector("#track");
+      const slickList = app.$el.querySelector("#slick-list")
+      const slick = app.$el.querySelector("#slick-list").querySelectorAll(".slick")
+      const slickWidth = slick[0].offsetWidth;
 
       function Move(value) {
-          const trackWidth = track.offsetWidth;
-          const listWidth = slickList.offsetWidth;
+        const trackWidth =  app.$el.querySelector("#track").offsetWidth;
+        const listWidth = app.$el.querySelector("#slick-list").offsetWidth;
+
 
           track.style.left == "" ? leftPosition = track.style.left = 0 : leftPosition = parseFloat(track.style.left.slice(0, -2) * -1);
 
@@ -200,14 +201,14 @@ Vue.component('carrusel', {
       Move(1);
     },
     rightMove(){
-      const track = document.getElementById('track');
-      const slickList = document.getElementById('slick-list');
-      const slick = document.querySelectorAll('.slick');
-
+      const track = app.$el.querySelector("#track");
+      const slickList = app.$el.querySelector("#slick-list")
+      const slick = app.$el.querySelector("#slick-list").querySelectorAll(".slick")
+      const slickWidth = slick[0].offsetWidth;
 
       function Move(value) {
-          const trackWidth = track.offsetWidth;
-          const listWidth = slickList.offsetWidth;
+          const trackWidth =  app.$el.querySelector("#track").offsetWidth;
+          const listWidth = app.$el.querySelector("#slick-list").offsetWidth;
 
           track.style.left == "" ? leftPosition = track.style.left = 0 : leftPosition = parseFloat(track.style.left.slice(0, -2) * -1);
 
