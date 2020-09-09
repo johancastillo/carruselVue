@@ -1,11 +1,19 @@
 Vue.component('carrusel', {
   template: `
   <div class="container-fluid">
+  <br>
+  <div class="container">
   <h4>
-    <a style="border-bottom: solid 2px #faa22c;">
+    <a style="border-bottom: solid 2px #faa22c; float:left">
       Alimentos
     </a>
   </h4>
+
+  <p style="float:right">
+    <a href="#">Ir a la categoría <i class="fas fa-chevron-right"></i></a>
+  </p>
+  </div>
+
   <div class="slick-list" id="slick-list">
             <button @click="leftMove()" class="slick-arrow slick-prev" id="button-prev">
                 <i class="fas fa-chevron-left"></i>
@@ -160,7 +168,8 @@ Vue.component('carrusel', {
                 <i class="fas fa-chevron-right"></i>
             </button>
         </div>
-        <div>
+        <br>
+        </div>
   `,
   data(){
     return {
