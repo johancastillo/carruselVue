@@ -18,7 +18,7 @@ Vue.component('carrusel', {
             <button @click="leftMove()" class="slick-arrow slick-prev" id="button-prev">
                 <i class="fas fa-chevron-left"></i>
             </button>
-            <div class="slick-track" id="track">
+            <div class="slick-track track">
                 <div class="slick">
                     <div>
                         <a href="#">
@@ -178,9 +178,9 @@ Vue.component('carrusel', {
   },
   methods: {
     leftMove(){
-      const track = app.$el.querySelector("#track");
       const slickList = app.$el.querySelectorAll(".slick-list")[1];
-      const slick = app.$el.querySelector(".slick-list").querySelectorAll(".slick")
+      const track = slickList.querySelector(".track");
+      const slick = track.querySelectorAll(".slick")
       const slickWidth = slick[0].offsetWidth;
 
       function Move(value) {
@@ -201,9 +201,9 @@ Vue.component('carrusel', {
       Move(1);
     },
     rightMove(){
-      const track = app.$el.querySelector("#track");
       const slickList = app.$el.querySelectorAll(".slick-list")[1];
-      const slick = app.$el.querySelector(".slick-list").querySelectorAll(".slick")
+      const track = slickList.querySelector(".track");
+      const slick = track.querySelectorAll(".slick")
       const slickWidth = slick[0].offsetWidth;
 
       function Move(value) {
